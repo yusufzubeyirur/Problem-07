@@ -29,6 +29,17 @@ function Avatar({ imageSrc, name, profileText }) {
 
 export default function App() {
   return (
-    <Avatar imageSrc="/photo.png" name="Tom Cook" profileText="Profile bakın" />
+    <>
+      <Avatar
+        imageSrc="/photo.png"
+        name="Tom Cook"
+        profileText="Profile bakın"
+      />
+      <Avatar
+        imageSrc="/photo.png"
+        name="Tom Cook"
+        profileText="Profile bakın"
+      />
+    </>
   );
 }
